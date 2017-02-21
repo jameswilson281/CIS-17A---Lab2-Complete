@@ -12,5 +12,8 @@ private:
 public:	
 	Course(std::string name, std::string description, Teacher teacher);
 	~Course();
+
+	bool AddStudent(Student newStudent, int position);
+	std::string GetClassInfo();
 };
 

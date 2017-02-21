@@ -8,5 +8,8 @@ public:
 	Student();
 	Student(std::string name);
 	~Student();
+
+	std::string GetName();
+	
 };
 

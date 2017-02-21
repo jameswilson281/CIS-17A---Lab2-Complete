@@ -11,3 +11,8 @@ Student::Student(std::string name) : _name(name)
 Student::~Student()
 {
 }
+
+std::string Student::GetName()
+{
+		return _name;
+}
