@@ -1,4 +1,6 @@
 #include "Student.h"
+#include <iostream>
+using namespace std;
 
 Student::Student()
 {
@@ -10,6 +12,7 @@ Student::Student(std::string name) : _name(name)
 
 Student::~Student()
 {
+	cout << _name << " is out of scope" << endl;
 }
 
 std::string Student::GetName()
